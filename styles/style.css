@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body h3 {
+    background-color: black;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+header h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 500%;
+    color: whitesmoke;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-left: 3vw;
+    margin: 0;
+    width: 25vw;
+}
+header ul{
+    width: 70vw;
+    justify-content: space-evenly;
+}
+header li{
+    padding: 20px;
+}
+
+.menunavegacion {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 200%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.menunavegacion a{
+    color: rgb(255, 199, 14);
+    text-decoration:dotted;
+}
+.tituloamarillo {
+    color: rgb(255, 199, 14);
+}
+
+.indicador-pagina{
+    text-align: right;
+    color: rgb(255, 199, 14);
+    padding-right: 5vw;
+}
+.imagen-con-eslogan{
+    position: static;
+    display: inline-block;
+}
+.imagen-con-eslogan img{
+    width: 100vw;
+}
+.imagen-con-eslogan h2{
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    color: whitesmoke;
+    font-size: 30px;
+    top: 20%;
+    background-color: rgba(0, 0, 0, 0);
+    left: 2%;
+    font-size: 250%;
+}
+footer{ 
+    color: rgb(255, 199, 14);
+    background-color: black;
+    height: 150px;
+    font-size: 30px;
+}
+section {
+    display: flex;
+    text-decoration-style: none;
+    position: absolute;
+    top: 40%;
+    justify-content: center;
+    z-index: 2;
+    gap: 30px;
+    padding: 0 40px;
+    width: 100%;
+
+    
+}
+.maquinas-inicio, .herramientas-inicio, .accesorios-inicio{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+  
+}
+.maquinas-inicio a {
+color: rgb(255, 199, 14);
+font-family: "montserrat";
+position: absolute;
+background-color: rgba(0, 0, 0, 0);
+text-decoration: none;
+font-weight: bold;
+padding-left: 10px;
+
+}
+.maquinas-inicio img, .accesorios-inicio img, .herramientas-inicio img{
+    width: 20vw;
+    height: 20vw;
+    display: block;
+}
+
+.herramientas-inicio a {
+
+color: rgb(255, 199, 14);
+font-family: "montserrat";
+position: absolute;
+background-color: rgba(0, 0, 0, 0);
+text-decoration: none;
+font-weight: bold;
+padding-left: 10px;
+
+}
+.accesorios-inicio a {
+color: rgb(255, 199, 14);
+font-family: "montserrat";
+position:absolute;
+background-color: rgba(0, 0, 0, 0);
+text-decoration: none;
+font-weight: bold;
+padding-left: 10px;
+
+}
+
+body{
+    position: relative;
+}
+footer {
+    display: block;
+    position: absolute;
+    object-fit: cover;
+    bottom: 0;
+    color: rgb(255, 199, 14);
+    background-color: rgba(0, 0, 0, 0.7); /* transparente el fondo */
+    width: 100vw;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+section img {
+    width: 25vw;
+    height: auto;
+    border: 4px solid rgb(255, 255, 255);
+ 
+}
+
+section a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+    margin-right: 10px;
+    z-index: 2;
+}
+.navbar-color  div {
+    font-size: 40px;
+    background-color:black;
+    color: rgb(255, 199, 14);
+}
+.navbar-toggler-icono { 
+    background-color: antiquewhite;
+    color: rgb(255, 199, 14);
+}
+#carouselExampleCaptions {
+  max-width: 800px;
+  margin: auto;
+}
+.footer-estatico{
+     position: relative;
+    margin-top: 100px;
+    background-color: black;
+    color: rgb(255, 199, 14);
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+}
+.fondo-body-productos{
+    background-image: url("../assets/soldador.png");
+    background-size: cover;
+}
+.imagen-con-eslogan p{
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    color: whitesmoke;
+    font-size: 200%;
+    top: 70%;
+    background-color: rgba(0, 0, 0,0.7);
+    left: 2%;
+}

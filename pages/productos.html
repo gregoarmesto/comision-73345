@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <!--linkeo bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+       <!--linkeo css-->
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+</head>
+<body class="fondo-body-productos">
+    
+    <header>
+        <h1>Electrical Tools</h1>
+        <nav class="navbar-color navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">Menu</a>-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icono"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./sobrenosotros.html">Sobre Nosotros</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+         <!--carrousel de bootstrap-->
+    <div id="carouselExampleCaptions" class="carousel slide">
+         <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../assets/atornillador.jpg" class="d-block w-100" alt="atornillador electrico">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Atornillador electrico</h5>
+                        <p>Atornillador electrico con percutor y larga duracion de bateria.</p>
+                    </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/amoladoraelectrica.png" class="d-block w-100" alt="amoladora electrica">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Amoladora electrica</h5>
+                        <p>Amoladora electrica de 3 velocidades diferentes con 2 baterias.</p>
+                    </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/bolsodetrabajo.JPG" class="d-block w-100" alt="bolso para herramientas">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Bolso de herramientas</h5>
+                        <p>Bolso de herramientas, ideal electricista/durlero/carpintero.</p>
+                    </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </main>     
+    <!--
+    <div>
+            <h3 class="tituloamarillo">Maquinas</h3>
+            <img src="../assets/atornillador.jpg" alt="Atornillador a bateria.">
+            <img src="../assets/amoladoraelectrica.png" alt="amoladora electrica">
+            <h3 class="tituloamarillo">Herramientas</h3>
+            <img src="../assets/pinzauniversal.JPG" alt="Pinza universal">
+            <img src="../assets/martillo.avif" alt="Martillo aislado.">
+            <h3 class="tituloamarillo">Accesorios</h3>
+            <img src="../assets/bolsodetrabajo.JPG" alt="Bolso de trabajo">
+            <img src="../assets/cascoconlinterna.jpg" alt="Casco con linterna incorporada">
+    </div>
+    -->
+    <footer class="footer-estatico">
+        <h3>Contacto</h3>
+        <p>Tres Arroyos, Buenos Aires, Argentina.
+            Celular: 2983444334
+            Mail: electricaltools@gmail.com
+        </p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
