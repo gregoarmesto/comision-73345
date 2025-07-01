@@ -44,12 +44,6 @@ header li{
 .tituloamarillo {
     color: rgb(255, 199, 14);
 }
-
-.indicador-pagina{
-    text-align: right;
-    color: rgb(255, 199, 14);
-    padding-right: 5vw;
-}
 .imagen-con-eslogan{
     position: static;
     display: inline-block;
@@ -213,18 +207,22 @@ section a {
 
 /*query celulares*/
 @media (max-width: 576px) {
-  header h1 {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+    header h1 {
     font-size: 220%;
     text-align: center;
     width: 100%;
-    padding: 20px 0;
   }
 
   section {
     flex-direction: column;
     padding: 20px;
     gap: 20px;
-  } !important
+  }
 
   .maquinas-inicio img,
   .herramientas-inicio img,
