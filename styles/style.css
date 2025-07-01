@@ -268,18 +268,8 @@ section a {
     padding: 15px;
     margin-top: 10%;
   }
-
-  footer {
-    position: relative;
-    margin-top: 100px;
-    background-color: black;
-    color: rgb(255, 199, 14);
-    text-align: center;
-    padding: 20px;
-    margin-top: 0px;
-  }
 .fondo-body-index {
-    min-height: 100vh;
+  object-fit: cover;
     height: auto;
     background-size: cover;
     background-position: center;
