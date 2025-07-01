@@ -219,8 +219,11 @@ section a {
     padding-left: 0;
     margin: 0 auto;
   }
+  .menunavegacion a {
+  font-size: 16px !important;
+}
 .navbar-nav .nav-link {
-  font-size: 16px; 
+  font-size: 16px !important; 
   text-align: center;
   padding: 10px 0;
 }
@@ -234,14 +237,14 @@ section a {
   .maquinas-inicio img,
   .herramientas-inicio img,
   .accesorios-inicio img {
-    width: 80vw;
+    width: 60vw;
     height: auto;
   }
 
   .maquinas-inicio a,
   .herramientas-inicio a,
   .accesorios-inicio a {
-    font-size: 30px;
+    font-size: 15px;
     text-align: center;
     margin-bottom: 10px;
   }
@@ -251,6 +254,7 @@ section a {
     font-size: 160%;
     padding: 15px;
     text-align: center;
+    justify-content: center;
   }
 
   .imagen-con-eslogan p {
