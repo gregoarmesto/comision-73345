@@ -278,7 +278,15 @@ section a {
     padding: 20px;
     margin-top: 0px;
   }
-
+.fondo-body-index {
+    min-height: 100vh;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
   .carousel-caption h5,
   .carousel-caption p {
     font-size: 80%;
