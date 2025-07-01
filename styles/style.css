@@ -277,15 +277,16 @@ section a {
     flex-direction: column;
 }
  
-}
+
 main div p {
     font-size: 12px !important;
 }
 
 footer {
-    top: 10% !important;
-    font-size: 14px !important;
+    top: 10% ;
+    font-size: 14px ;
   position:static;
   bottom: 0;
   margin-top: auto;
+}
 }
