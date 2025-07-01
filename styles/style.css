@@ -266,7 +266,7 @@ section a {
   .imagen-con-eslogan p {
     font-size: 80%;
     padding: 15px;
-    margin-top: 30%;
+    margin-top: 10%;
   }
 
   footer {
@@ -291,4 +291,22 @@ section a {
   .carousel-caption p {
     font-size: 80%;
   }
+}
+main div p {
+    font-size: 12px !important;
+}
+.fondo-body-productos {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  position: relative;
+  bottom: auto;
+  margin-top: auto;
 }
