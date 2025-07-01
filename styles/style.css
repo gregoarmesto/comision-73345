@@ -283,6 +283,7 @@ main div p {
 }
 
 footer {
+    top: 10% !important;
     font-size: 14px !important;
   position: relative;
   bottom: 0;
