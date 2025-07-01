@@ -287,25 +287,14 @@ section a {
     display: flex;
     flex-direction: column;
 }
-  .carousel-caption h5,
-  .carousel-caption p {
-    font-size: 80%;
-  }
+ 
 }
 main div p {
     font-size: 12px !important;
 }
-.fondo-body-productos {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  flex: 1;
-}
 
 footer {
+    font-size: 14px !important;
   position: relative;
   bottom: auto;
   margin-top: auto;
