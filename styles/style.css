@@ -269,7 +269,7 @@ section a {
     margin-top: 10%;
   }
 .fondo-body-index {
-  object-fit: cover;
+  width: 130vw;
     height: auto;
     background-size: cover;
     background-position: center;
